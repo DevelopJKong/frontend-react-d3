@@ -1,5 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
-import CirclePage from './pages/circle.page';
+import TwoPage from './pages/two.page';
 import MainPage from './pages/main.page';
 
 const Router = () => {
@@ -9,8 +9,8 @@ const Router = () => {
       element: <MainPage />,
     },
     {
-      path: 'circle',
-      element: <CirclePage />,
+      path: 'two',
+      element: <TwoPage />,
     },
   ]);
   return { logoutRouter };
